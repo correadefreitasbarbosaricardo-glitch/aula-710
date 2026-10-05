@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+
+input:focus{
+    color: blue;
+    font-weight: 700;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.nameclass:active{
+    color: aqua;
+    font-size: 20px;
+}
+
+.nameclass:visited{
+color: brown;
+background-color: black;
+
+
+}

@@ -1,0 +1,20 @@
+.destaque {
+    font-style: italic;
+    color: rgb(70, 70, 71);
+    text-align: right;
+}
+
+p.destaque {
+    color: blue;
+ font-size: 20px;
+}
+
+p.estilo-de-fonte {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li.cormando {
+    color: blueviolet;
+    font-size: 30px;
+}

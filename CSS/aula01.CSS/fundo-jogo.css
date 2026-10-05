@@ -1,0 +1,75 @@
+
+/* @import url(''); traz da internet moldes de letras exemplo letras de forma, estilizadas e etc*/
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alien+Block&family=Black+Ops+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*
+ uma função com {chaves} logo apos cria uma stilização
+ cada estilização cria algo novo alterando o visual da pagina
+
+ background-color:;
+    colore o fundo
+ color:;
+    colore a letra
+ font-style:;
+    define se esta em negrito, italico, etc
+ font-family:,;
+    define a estilização da letra
+ font-size:;
+    tamanho das letras a traves de pixeis
+ text-align:;
+    interaje com o texto definindo as regra que queira
+ line-height:;
+    define o espaso entre cada frase
+ text-shadow:;
+    usa  5px 5px 5px para fazer sobra e para definir a sua localização sendo feita por ( x , y, p ) p sendo usado para se referir a profundidade
+ */
+
+
+/* estilizaçãoes posiveis */
+body {
+ background-color: rgb(72, 0, 189);
+}
+
+p{
+    background-color: rgb(26, 0, 99);
+    color: #0077ff;
+    font-family: "Lobster Two", sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 200%;
+    text-shadow: 5px 5px 9px ;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(26, 0, 99);
+    color: hsl#0077ff;
+    font-family: "Lobster Two", sans-serif;
+    font-size: 30px;
+    text-shadow: 10px 10px 10px ;
+}
+
+h2 {
+    background-color: rgb(26, 0, 99);
+    color: hsl#0077ff;
+    font-family: "Lobster Two", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px ;
+    }
+
+    ul{
+        background-color: rgb(26, 0, 99);
+    color: #0077ff;
+    font-family: "Lobster Two", sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    }
+ol{
+    background-color: rgb(26, 0, 99);
+    color: #0077ff;
+    text-shadow: 5px 5px 5px ;
+} 

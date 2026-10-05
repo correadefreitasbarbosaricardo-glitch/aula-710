@@ -1,0 +1,59 @@
+/* @media screen and permi fazer que o site se ajuste a diferentes tipos de telas em um class determinante as condiçoes (max-width:)*/
+
+@media screen and (max-width: 400px) {
+ .forma_de_vida_1{
+    color: brown;
+    text-align: center;
+ }
+}
+
+/* @media print and permite que ao inprimir defina determinadas condiçoes em um class determinante as condiçoes (max-width:)*/
+
+@media print and (max-width: 880px) {
+ .forma_de_vida_2{
+    color: brown;
+    text-align: center;
+    background-color: black;
+ }
+}
+
+/* já só @media permite que permite auterar um class determinante as condiçoes (max-width:) */
+
+@media (max-width: 500px) {
+ .forma_de_vida_3 {
+    color: blueviolet;
+    text-align: right;
+    background-color: bisque;
+ }
+}
+
+/* define determinada stancia se a tela for maior de 600px*/
+
+@media (max-width: 600px) {
+        .forma_de_vida_4 {
+            color: coral;
+            background-color: blue;
+            font-weight: 900px;
+        }
+    }
+
+/* define */
+
+@media ( max-width: landscape) {
+    .forma_de_vida_5{
+        background-color: black;
+    }
+}
+
+/* define um comeso e um limite para determinada ação ser executada */
+
+@media (min-width: 750px) and (max-width: 780px) {
+    .forma_de_vida_5{
+
+        color: rgb(53, 35, 35);
+        background-color: chartreuse;
+        text-align: center;
+    }
+
+
+}

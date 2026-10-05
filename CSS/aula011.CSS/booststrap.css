@@ -1,0 +1,41 @@
+
+div{
+
+    height: 200px;
+    width: 200px ;
+    margin: 10px ;
+    border: 3px solid green;
+
+}
+
+.botao{
+
+background-color: aqua;
+
+}
+.botao:hover{
+
+
+    
+}
+
+.container{
+height: 100vh;
+display: grid;
+grid-template-rows: repeat(6, 1fr); /* tres linhas */
+grid-template-columns: repeat(6,1fr); /* tres colunas*/
+
+background-color: black;
+
+row-gap: 18px;
+column-gap: 25px;
+gap: 20px;
+}
+
+
+
+.box1{
+
+
+
+}

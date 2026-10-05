@@ -1,0 +1,93 @@
+.contido-conteudo1{
+
+height: 100vh;
+display: grid;
+grid-template-rows: repeat(10, 1fr); /* tres linhas */
+grid-template-columns: repeat(10,1fr); /* tres colunas*/
+
+background-color: black;
+
+row-gap: 18px;
+column-gap: 25px;
+gap: 20px;
+
+}
+
+.caixa1{
+
+background-color: green;
+
+grid-column: 1 / 1;
+grid-auto-rows: 1 / 1;
+
+}
+
+
+
+.caixa2{
+
+background-color: gold;
+
+grid-column: 1 / 1;
+grid-auto-rows: 1 / 1;
+
+}
+
+
+
+.caixa3{
+
+background-color: red;
+
+grid-column: 1 / 1;
+grid-auto-rows: 1 / 1;
+
+}
+
+
+
+.caixa4{
+
+background-color: blue;
+
+grid-column: 1 / 1;
+grid-auto-rows: 1 / 1;
+
+}
+
+.caixa5{
+
+background-color: salmon;
+
+grid-column: 1 / 1;
+grid-auto-rows: 1 / 1;
+
+}
+
+
+
+.caixa6{
+
+background-color: royalblue;
+
+grid-column: 1 / 1;
+grid-auto-rows: 1 / 1;
+
+}
+
+.caixa7{
+
+background-color: purple;
+
+grid-column: 1 / 1;
+grid-auto-rows: 1 / 1;
+
+}
+
+/* .caixa8{}
+
+.caixa8{}
+
+.caixa9{}
+
+.caixa10{} */

@@ -1,0 +1,558 @@
+/* @import url(''); traz da internet moldes de letras exemplo letras de forma, estilizadas e etc*/
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alien+Block&family=Black+Ops+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*
+ uma função com {chaves} logo apos cria uma stilização
+ cada estilização cria algo novo alterando o visual da pagina
+
+ background-color:;
+    colore o fundo
+ color:;
+    colore a letra
+ font-style:;
+    define se esta em negrito, italico, etc
+ font-family:,;
+    define a estilização da letra
+ font-size:;
+    tamanho das letras a traves de pixeis
+ text-align:;
+    interaje com o texto definindo as regra que queira
+ line-height:;
+    define o espaso entre cada frase
+ text-shadow:;
+    usa  5px 5px 5px para fazer sobra e para definir a sua localização sendo feita por ( x , y, p ) p sendo usado para se referir a profundidade
+ */
+
+
+/* estilizaçãoes posiveis */
+body {
+ background-color: rgb(72, 0, 189);
+  /* background-color: silver; */
+    background-image: url("./plano-de-fundo-da-area-de-trabalho-moderno-vetor-de-desenho-geometrico-azul_53876-135923.avif");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p{
+    background-color: rgb(40, 41, 41);
+    color: #817bb3;
+    font-family: "Lobster Two", sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 200%;
+    text-shadow: 5px 5px 9px ;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: hsl(138, 100%, 19%);
+    font-family: "Lobster Two", sans-serif;
+    font-size: 60px;
+    text-shadow: 10px 10px 10px ;
+}
+
+h2 {
+    background-color: black ;
+    color: blueviolet;
+    font-family: "Lobster Two", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px ;
+    }
+    
+ul{
+        background-color: slategray;
+    color: #2911ff;
+    font-family: "Lobster Two", sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    }
+
+ol{
+    background-color:black;
+    color: #ff0000;
+    text-shadow: 5px 5px 5px ;
+} 
+/* esse é uma classe clesse variavel que define o que usara */
+.termo_espesifico {
+background-color: black;
+    color: greenyellow;
+    font-family: "Lobster Two", sans-serif;
+    text-align: justify;
+    font-size: 30px;
+}
+
+#texto_especifico {
+background-color: black;
+    color: blue;
+    font-size: 30px;
+}
+
+/*     
+border-top:; borda de cima
+border-right:; borda do lado
+border-bottom:; borda do outro
+border-left:; borda de baixo
+border-color:; mudar tudo de cor
+border-style:; muda o stilo da borda
+*/
+
+.box1{
+
+    border-top: 1px solid green ;
+    border-right: 5xp double greenyellow;
+    border-bottom: 1px solid yellowgreen;
+    border-left: 5px dotted black;
+
+    border-color: purple;
+    border-style: double;
+
+    height: 200px;
+    width: 300px;
+    border-radius: 100%;
+    background-color: rgb(1, 34, 1);
+}
+
+.box2{
+    border: 5px double purple;
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+    background-color: chocolate;
+    }
+
+img {
+    height: 400px;
+    filter: drop-shadow(5px 5px 8px green);
+}
+
+figure {
+    background-color: black;
+    height: 450px;
+    width: 450;
+    border: 3px double dodgerblue;
+    border-bottom: 60px solid black;
+    text-align: center;
+    box-shadow: double dodgerblue 3px 3px 3px;
+}
+
+figcaption{
+    color: aliceblue;
+    font-family: "Lobster Two", sans-serif;
+    text-shadow: seashell 1px 2px 1px;
+}
+
+/* com Class é posive extilização individual de elementos asim podendo usar como uma variavel */
+
+.escuro{
+    background-color:black;
+}
+
+.box3{
+
+    padding-top:25px;
+    padding-left: 25px;
+
+    padding: 170px;
+
+    height: 250px;
+    width: 250px;
+    background-color: greenyellow;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+
+
+
+    margin: 40px 40px 40px 44px;
+
+    border: 5px solid green;
+
+    color: darkolivegreen;
+
+}
+
+/* 
+inline - exibe um elemento em linha (inline) a outro elemento
+
+block - Exibe um elemnto com um bloco (block). permite width & heigth
+
+inline-block - Exibe o elemento em um bloco lado a lado
+*/
+
+.box4{
+
+height: 280px;
+width: 280px;
+border: 1px solid rgb(0, 0, 156);
+background-color: rgb(156, 0, 0);
+margin-bottom: 10px;
+display: inline-block;
+
+}
+
+.box5{
+
+height: 280px;
+width: 280px;
+border: 1px solid blue;
+background-color: red;
+display: inline-block;
+
+}
+
+
+
+.content_box{
+
+height: 200px;
+width: 200px;
+background-color: blue ;
+margin-bottom: 10px;
+border: 5px double red;
+padding: 10px;
+box-sizing: content-box;
+
+}
+
+.border_box{
+
+height: 200px;
+width: 200px;
+background-color: red ;
+border: 5px double blue;
+padding: 10px;
+box-sizing: border-box;
+
+}
+
+.unidade3{
+
+/* font-size: 3cm; */
+/* font-size: 2.5rem; */
+font-size: 2rem;
+}
+
+.unidade1{
+
+font-size: 25cm;
+font-size: 25mm;
+font-size: 25in;
+font-size: 25pc;
+font-size: 25pt;
+font-size: 25px;
+
+}
+
+.unidade2{
+
+font-size: 2rem;
+
+}
+
+/* div é uma divisoria ao usar o CSS em div você pode modificar esses espasamentos*/
+
+div{
+
+    height: 200px;
+    width: 200px ;
+    margin: 10px ;
+    border: 3px solid green;
+
+}
+
+
+.box6{
+
+background-color: chartreuse;}
+
+/* hover conseguie usar para auterar a composizição da box para reagir ao cursor do mause */
+
+.box6:hover {
+background-color: gold;
+height: 300px;
+ width: 300px;
+}
+
+.box7{
+
+background-color: darkgreen;
+
+}
+
+.box7:hover{
+
+background-color: greenyellow;
+
+}
+
+/*  modifica a coloração do input */
+
+input:focus{
+    color: blue;
+    font-weight: 700;
+    background-color: black;
+    border-radius: 20px;
+}
+
+/* autera as propriedades da parte clicavel do link sendo active para auterar a aparencia e visited para auterar a aparencia depois de visitado */
+
+.nameclass:active{
+    color: aqua;
+    font-size: 20px;
+}
+
+.nameclass:visited{
+color: brown;
+background-color: black;
+
+
+}
+
+/* after permite usar uma variavel class para conte*/
+
+.primeira::after{
+
+    content: "  turma 02 ";
+
+
+}
+
+.primeiro::before{
+
+content: "Dev. Web";
+
+}
+
+.segundo::first-letter{
+
+color: darkorange;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+font-size: 40px;
+
+}
+
+/* @media screen and permi fazer que o site se ajuste a diferentes tipos de telas em um class determinante as condiçoes (max-width:)*/
+
+@media screen and (max-width: 400px) {
+ .forma_de_vida_1{
+    color: brown;
+    text-align: center;
+ }
+}
+
+/* @media print and permite que ao inprimir defina determinadas condiçoes em um class determinante as condiçoes (max-width:)*/
+
+@media print and (max-width: 880px) {
+ .forma_de_vida_2{
+    color: brown;
+    text-align: center;
+    background-color: black;
+ }
+}
+
+/* já só @media permite que permite auterar um class determinante as condiçoes (max-width:) */
+
+@media (max-width: 500px) {
+ .forma_de_vida_3 {
+    color: blueviolet;
+    text-align: right;
+    background-color: bisque;
+ }
+}
+
+/* define determinada stancia se a tela for maior de 600px*/
+
+@media (max-width: 600px) {
+        .forma_de_vida_4 {
+            color: coral;
+            background-color: blue;
+            font-weight: 900px;
+        }
+    }
+
+/* define */
+
+@media ( max-width: landscape) {
+    .forma_de_vida_5{
+        background-color: black;
+    }
+}
+
+/* define um comeso e um limite para determinada ação ser executada */
+
+@media (min-width: 750px) and (max-width: 780px) {
+    .forma_de_vida_5{
+
+        color: rgb(53, 35, 35);
+        background-color: chartreuse;
+        text-align: center;
+    }
+
+
+}
+
+/* container contem todas as blocks */
+
+/* 
+display block
+display inline
+display inline block
+display none
+*/
+
+/* main axis = horizontal e cross axis = vertical */
+
+/* start comesa e end finalisa */
+
+/*
+flex-start = a organiza < de ca prala >
+flex-end = organizar > de ca prala <
+center = centralizar
+space-betwen = organizar com grande espaso
+space-around = centraliza com espasamento
+space-evenly = centralizar sem expasamento
+row = deixa organiza < de ca prala >
+row-reverse = organiza alinhado > de ca prala <
+column = organiza em coluna de cima pra baixo
+column-reverse = organiza de baixo pra cima
+orden = redefine a ordem
+*/
+
+.container{
+
+height: 500px;
+width: 800px;
+background-color: silver;
+border: 1px solid blue;
+display: flex;
+flex-direction: center;
+
+}
+
+.box{
+height: 100px;
+width: 100px;
+border: 1px solid;
+margin: 5px;
+}
+
+.box8{
+ background-color: chartreuse;
+ order: 3;
+}
+
+.box9{
+    background-color: brown;
+    order: 2;
+    flex-grow: 1;
+}
+
+.box10{
+    background-color: chocolate;
+    order: 1;
+    flex-grow: 1;
+}
+
+* {
+    margin: 0
+}
+
+.container1{
+    height:100vh;
+    border: 1px solid bisque;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr) ;
+    grid-template-areas: 
+    "header header header"
+    "main main prop"
+    "main main prop"
+    "footer footer footer"
+    ;
+    
+}
+
+/*  */
+
+.boxA{
+background-color: pink ;
+grid-area:  header;
+}
+.boxB{
+background-color: yellowgreen ;
+grid-area: main;
+}
+.boxC{
+background-color: yellow ;
+grid-area: prop;
+}
+
+.boxD{
+background-color:palevioletred ;
+grid-area: footer;
+}
+
+.container2{
+height: 100vh;
+display: grid;
+grid-template-rows: repeat(6, 1fr); /* tres linhas */
+grid-template-columns: repeat(6,1fr); /* tres colunas*/
+
+background-color: black;
+
+row-gap: 18px;
+column-gap: 25px;
+gap: 20px;
+}
+
+/* organiza as caixas por linha horizontal e coluna verticas*/
+
+.box1Z{
+background-color: white ;
+
+grid-column: 1 / 4 ; /* tres linhas */
+grid-row: 2 / 2 ; /* tres colunas*/
+}
+
+.box2Z{
+background-color: red ;
+
+grid-column: 1 / 7 ; /* tres linhas */
+grid-row: 0 / 0 ; /* tres colunas*/
+}
+
+.box3Z{
+background-color: green ;
+
+grid-column: 4 / 7 ; /* tres linhas */
+grid-row: 2 / 2 ; /* tres colunas*/
+}
+
+.box4Z{
+background-color: rgb(238, 255, 0) ;
+
+grid-column: 1 / 7 ; /* tres linhas */
+grid-row: 3 / 5 ; /* tres colunas*/
+}
+
+.box5Z{
+background-color: blue ;
+
+grid-column: 1 / 3 ; /* tres linhas */
+grid-row: 5 / 5 ; /* tres colunas*/
+}
+
+.box6Z{
+background-color: rosybrown ;
+
+grid-column: 3 / 7 ; /* tres linhas */
+grid-row: 6 / 5 ; /* tres colunas*/
+}

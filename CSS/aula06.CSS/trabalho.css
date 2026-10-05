@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alien+Block&family=Black+Ops+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+
+background-color: darkgreen;
+
+}
+
+.nameclass:active{
+    color: green;
+    font-size: 20px;
+}
+
+.nameclass:visited{
+color: rgb(141, 209, 40);
+background-color: green;
+}
+
+:root{
+--aumento-de-texto: 20px ;
+--destacar-texto: rgb(2, 238, 2) ;
+--texto-gigacromo: 50px;
+--texto-modificado: "Lobster Two" ;
+}
+
+h1{
+    font-size: var(--texto-gigacromo);
+    font-family: var(--texto-modificado), sans-serif;
+    color: var(--destacar-texto);
+}
+
+p{
+    font-size: var(--aumento-de-texto) ;
+    color: var(--destacar-texto);
+}
+
+
+

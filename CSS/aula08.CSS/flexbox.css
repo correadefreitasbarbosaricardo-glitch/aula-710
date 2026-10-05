@@ -1,0 +1,159 @@
+/* container contem todas as blocks */
+
+/* 
+display block
+display inline
+display inline block
+display none
+*/
+
+/* main axis horizontal e cross axis vertical */
+
+/* start comesa e end finalisa */
+
+.container{
+
+/* 
+flex-direction: column;
+flex-direction: column-reverse;
+flex-direction: row-reverse; 
+*/
+
+/* 
+direction: ltr; deixa o conteudo a direita
+direction: rtl; deixa o conteudo a esquerda
+*/
+
+/* 
+justify-content:flex-start;
+justify-content: center;
+justify-content: flex-start;
+justify-content: end;  
+*/
+
+/* 
+align-items: flex-start;
+align-items: start;
+align-items: center;
+align-items: end;
+align-items: flex-end;
+align-items: stretch;
+align-items: baseline; 
+*/
+
+height: 500px;
+width: 800px;
+background-color: silver;
+border: 1px solid blue;
+display: flex;
+flex-direction: center;
+
+/* 
+justify-content: center;
+align-items: center;  
+*/
+
+/* 
+flex-wrap: wrap; decai as caixas
+flex-wrap: wrap-reverse; empilha as caixas
+*/
+
+flex-wrap: wrap;
+flex-wrap: wrap-reverse;
+
+
+}
+
+.box{
+height: 100px;
+width: 100px;
+border: 1px solid;
+margin: 5px;
+}
+
+.box1{
+ background-color: chartreuse;
+ order: 3;
+}
+
+.box2{
+    background-color: brown;
+    order: 2;
+    flex-grow: 1;
+}
+
+.box3{
+    background-color: chocolate;
+    order: 1;
+    flex-grow: 1;
+}
+
+/* 
+
+flex-start = a organiza < de ca prala >
+flex-end = organizar > de ca prala <
+center = centralizar
+space-betwen = organizar com grande espaso
+space-around = centraliza com espasamento
+space-evenly = centralizar sem expasamento
+row = deixa organiza < de ca prala >
+row-reverse = organiza alinhado > de ca prala <
+column = organiza em coluna de cima pra baixo
+column-reverse = organiza de baixo pra cima
+orden = redefine a ordem
+*/
+
+
+
+/*.container {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse; 
+    flex-direction: row;
+
+    direction: ltr;
+    direction: rtl; 
+    justify-content: flex-start;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: end;
+
+    align-items: flex-start;
+    align-items: start;
+    align-items: center;
+    align-items: end;
+    align-items: flex-end; 
+    align-items: stretch;
+    align-items: baseline;
+
+    height: 500px;
+    width: 800px;
+    background-color: silver;
+    border: 1px solid #054895;
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space;
+    flex-wrap: wrap-reverse;
+
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    margin: 5px;
+}
+
+.box1 {
+    background-color: violet;
+}
+
+.box2 {
+    background-color: tomato;
+}
+
+.box3 {
+    background-color: black;
+    color: white;
+} */

@@ -1,0 +1,40 @@
+.container {
+    height: 100vh;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+        "A1 A1 A1 A1 A1 A1"
+        "A2 A2 A3 A3 A3 A3"
+        "A2 A2 A3 A3 A3 A3"
+        "A4 A4 A4 A4 A5 A5"
+        "A4 A4 A4 A4 A5 A5"
+        "A6 A6 A6 A6 A6 A6"
+    ;
+}
+
+.box1 {
+    background-color: #7fffd4;
+    grid-area: A1;
+}
+.box2 {
+    background-color: #187455;
+    grid-area: A2;
+}
+.box3 {
+    background-color: #b46c23;
+    grid-area: A3;
+}
+.box4 {
+    background-color: #bd14b4;
+    grid-area: A4;
+}
+.box5 {
+    background-color: #08126e;
+    grid-area: A5;
+}
+.box6 {
+    background-color: #266334;
+    grid-area: A6;
+}

@@ -1,0 +1,19 @@
+body{
+    /* background-color: silver; */
+    background-image: url ("./1140x641.jpg;");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box1{
+
+    height: 100vh;
+    
+}
+.box2{
+
+ height: 100vh;
+
+}

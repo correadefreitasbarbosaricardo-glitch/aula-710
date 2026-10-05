@@ -1,0 +1,20 @@
+.primeira::after{
+
+    content: "  turma 02 ";
+
+
+}
+
+.primeiro::before{
+
+content: "Dev. Web";
+
+}
+
+.segundo::first-letter{
+
+color: darkorange;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+font-size: 40px;
+
+}
